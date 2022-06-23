@@ -1,0 +1,13 @@
+! name: IT QA sites
+! description: Search results on Question & Answer websites mostly relevant for SysAdmins, programmers and tech guys
+! public: true
+! author: p4t0k
+
+! discard all other results
+$discard
+
+$boost=3,serverfault.com
+$boost=3,stackoverflow.com
+$boost=2,stackexchange.com
+$boost=2,ask.com
+$boost=1,youtube.com
