@@ -6,8 +6,8 @@
 ! discard all other results
 $discard
 
-$boost=3,serverfault.com
-$boost=3,stackoverflow.com
-$boost=2,stackexchange.com
-$boost=2,ask.com
-$boost=1,youtube.com
+$boost=3,site=serverfault.com
+$boost=3,site=stackoverflow.com
+$boost=2,site=stackexchange.com
+$boost=2,site=ask.com
+$boost=1,site=youtube.com
