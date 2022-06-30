@@ -1,4 +1,4 @@
-! name: IT QA sites
+! name: IT Q&A sites
 ! description: Search results on Question & Answer websites mostly relevant for SysAdmins, programmers and tech guys
 ! public: true
 ! author: p4t0k
@@ -8,6 +8,12 @@ $discard
 
 $boost=3,site=serverfault.com
 $boost=3,site=stackoverflow.com
+$boost=3,site=linuxquestions.org
+$boost=3,site=superuser.com
 $boost=2,site=stackexchange.com
+$boost=2,site=www.unix.com
+$boost=2,site=askubuntu.com
+$boost=2,site=ask.fedoraproject.org
 $boost=2,site=ask.com
+$boost=2,site=docs.microsoft.com
 $boost=1,site=youtube.com
